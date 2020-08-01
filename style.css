@@ -28,6 +28,19 @@ body {
   background-position: center;
 }
 
+#contact-header{
+  text-transform: uppercase;
+  position: absolute;
+  top: 350px;
+    font-size: 2.25rem;
+    font-weight: 900;
+  left: 800px;
+    padding: 0.5em 1em;
+    color: black;
+    mix-blend-mode: screen;
+    border-radius: 0.25em;
+}
+
 .scrolls {
   position: absolute;
   top: 50%;
@@ -123,8 +136,6 @@ section h2 {
   background-color: #fff;
   mix-blend-mode: multiply;
   border-radius: 0.25em;
-  pointer-events: none;
-  user-select: none;
 }
 section:nth-child(2) {
   background-image: url(https://i.ibb.co/pw84BcD/home-photo.jpg);
@@ -209,14 +220,13 @@ section:nth-child(4) {
   height: 26px;
 }
 
-#contact-header{
-  text-transform: uppercase;
-  position: absolute;
-  top: 350px;
-    font-size: 2.25rem;
-    font-weight: 900;
-    padding: 0.5em 1em;
+#time-day{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
     color: black;
-    mix-blend-mode: screen;
-    border-radius: 0.25em;
 }
+
+.time-day-head{    text-transform: uppercase;
+    position: absolute;
+    top: 120px;
+    padding: 0.5em 1em;}
